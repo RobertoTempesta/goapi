@@ -12,6 +12,7 @@ var (
 func main() {
 	//Initialize logger
 	logger = *config.GetLogger("main")
+
 	//Initialize Configs
 	err := config.Init()
 	if err != nil {
